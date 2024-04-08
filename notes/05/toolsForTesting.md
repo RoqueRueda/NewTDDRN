@@ -10,6 +10,7 @@ This is where mocks and spys becomes handy, they allow you to replace or provide
 ## Test Runner.
 
 Jest is a complete testing framework that comes with assertions, tools, and spys.
+https://morintd.medium.com/react-testing-understand-and-chose-the-right-tools-858236d3c4e1
 
 ## Implementation details
 : We should not test the details of the implementation 
@@ -23,4 +24,6 @@ A button with a text that increments every time the user clicks on it.
 If we implement this a class component in react and we test that the state inside the component changes with the user clicks, we will be testing the implementation details, and if we change this to a function component where no state is used then the test will fail.
 
 However if we test the click and just verify the text displayed in the button, we could change this class component to a stateless component and the test should remain valid.
+
+https://kentcdodds.com/blog/testing-implementation-details
 
