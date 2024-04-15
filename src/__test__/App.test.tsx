@@ -1,9 +1,10 @@
-function add(first: number, second: number): number {
-  return first + second;
-}
+import React from "react";
+import render from 'react-test-renderer';
+import App from '../App'
 
 describe('App', () => {
-  test('should add two numbers', () => {
-    expect(add(2, 2)).toBe(4);
-  });
-});
+  test('should render correctly', () => {
+    render.create(<App />);
+  })
+})
+
