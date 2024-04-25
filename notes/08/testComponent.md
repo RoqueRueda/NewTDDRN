@@ -13,4 +13,9 @@ describe('App', () => {
   })
 })
 ```
+* The tests may request you to add @types/jest, you can do this with:
+
+``` yarn add --dev @types/jest jest ```
+
+https://dev.to/lbenie/how-to-add-types-with-jest-and-typescript-1bai#:~:text=or%20with%20yarn,number)%20=%3E%20a%20+%20b
 
